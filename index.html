@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Content goes here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tech Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-right" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-4">
+    <div class="row">
+        <div class="col">
+            <h1>Welcome to Tech Blog</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <a href="https://www.gadgets360.comin/" class="text-decoration-none"><img src="gadget.jpg" class="card-img-top" alt="Gadget Image"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Latest Gadget Review</h5>
+                    <p class="card-text">Check out the latest review of the newest gadgets!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="soft.jpg" class="card-img-top" alt="Software Image">
+                <div class="card-body">
+                    <h5 class="card-title">Newest Software Review</h5>
+                    <p class="card-text">Discover the features of the newest software.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="news.avif" class="card-img-top" alt="News Image">
+                <div class="card-body">
+                    <h5 class="card-title">Industry News</h5>
+                    <p class="card-text">Stay updated with the latest tech industry news.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about" class="container my-4">
+    <div class="row">
+        <div class="col">
+            <h2>About Us</h2>
+            <p>We are a passionate team of tech enthusiasts dedicated to providing the latest reviews and news in the
+                technology sector. Our mission is to help you stay informed and make better decisions when it comes to
+                gadgets, software, and apps.</p>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="container my-4">
+    <div class="row">
+        <div class="col">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="news" class="container my-4">
+    <div class="row">
+        <div class="col">
+            <h2>Latest News</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <a href="https://www.aajtak.in/" class="text-decoration-none"><img src="latets.jpg" class="card-img-top" alt="News Image" ></a>
+                <div class="card-body">
+                    <h5 class="card-title">News Title</h5>
+                    <p class="card-text">Short summary of the news article.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more news cards as needed -->
+    </div>
+</div>
+
+
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">© 2024 Tech Blog</div>
+        </div>
+    </div>
+</footer>
+
+
+</html>
