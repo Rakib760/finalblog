@@ -1,0 +1,8 @@
+
+.nav-item:hover{
+    border-bottom: 2px solid rgb(65, 62, 62);
+}
+
+.card:hover{
+    outline-color:3px solid blue;
+}
